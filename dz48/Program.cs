@@ -46,13 +46,13 @@ class Program
         card.PrintCardInfo();
     }
 }*/
-
+//Завдання 2 
 class CreditCard
 {
-    public string CardNumber { get; set; }
-    public string CardHolderName { get; set; }
-    public string CVC { get; set; }
-    public decimal Balance { get; set; }
+    public string CardNumber {get; set;}
+    public string CardHolderName {get; set;}
+    public string CVC {get; set;}
+    public decimal Balance {get; set;}
 
     public CreditCard(string cardNumber, string cardHolderName, string cvc, decimal balance)
     {
